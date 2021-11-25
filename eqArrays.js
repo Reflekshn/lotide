@@ -1,5 +1,5 @@
 // Function to check if the actual value matches an expected value
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
@@ -8,7 +8,7 @@ const assertEqual = function (actual, expected) {
 };
 
 // Function to compare to arrays and return true if identical, otherwise false
-const eqArrays = function (list1, list2) {
+const eqArrays = function(list1, list2) {
   // First check that arrays have the same number of elements
   if (list1.length === list2.length) {
     // Iterate through each array using the same index and see if they are equal
