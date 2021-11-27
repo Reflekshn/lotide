@@ -14,21 +14,21 @@ const findKeyByValue = function(objectToSearch, valueToSearch) {
 
   // Iterate through object keys to find matching value
   for (const key in objectToSearch) {
-      const element = objectToSearch[key];
-      // Assign current key to matching key when value is found
-      if (element === valueToSearch) {
-        matchingObjectKey = key;
-      }
+    const element = objectToSearch[key];
+    // Assign current key to matching key when value is found
+    if (element === valueToSearch) {
+      matchingObjectKey = key;
+    }
   }
   return matchingObjectKey;
 };
 
 
 // Object to search
-const bestTVShowsByGenre = { 
+const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
+  drama: "The Wire"
 };
 
 // Test conditions
