@@ -1,5 +1,5 @@
 // Assert function that takes in two values to compare and console.log's an appropriate message to the console
-const assertEqual = function (actual, expected) {
+const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
   } else {
@@ -8,7 +8,7 @@ const assertEqual = function (actual, expected) {
 };
 
 // Function that will report back how many instances of each string in itemsToCount were found in the allItems array of strings.
-const countOnly = function (allItems, itemsToCount) {
+const countOnly = function(allItems, itemsToCount) {
   // Empty object to hold the results. The name and the amount of instances found in the array.
   let results = {};
 
