@@ -1,12 +1,3 @@
-// Function to check if the actual value matches an expected value
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🔴🔴🔴 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
 // Function to compare to arrays and return true if identical, otherwise false
 const eqArrays = function(list1, list2) {
   // First check that arrays have the same number of elements
@@ -24,11 +15,4 @@ const eqArrays = function(list1, list2) {
   return true;
 };
 
-// Test Cases
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
-assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false); // => false
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), false); // => true
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // => true
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), true); // => false
-assertEqual(eqArrays(["1", "2"], ["1", "2", "3"]), false); // => true
-assertEqual(eqArrays(["1", "2", "3"], ["1", "2"]), true); // => true
+module.exports = eqArrays;
