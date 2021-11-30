@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@reflekshn/lotide",
   "version": "1.0.0",
   "description": "Personal Lodash library clone",
   "main": "assertArraysEqual.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Reflekshn/lotide.git"
   },
-  "author": "",
+  "author": "Jeremy Orlewicz <jeremy_orlewicz@protonmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Reflekshn/lotide/issues"
