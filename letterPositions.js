@@ -51,3 +51,5 @@ assertArraysEqual(letterPositions("Lighthouse Labs").L, [0, 11]);
 assertArraysEqual(letterPositions("Lighthouse Labs").h, [3, 5]);
 assertArraysEqual(letterPositions("Lighthouse Labs").h, [3]);
 assertArraysEqual(letterPositions("Lighthouse Labs").s, [8, 14]);
+
+module.exports = letterPositions;

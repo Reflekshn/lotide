@@ -34,6 +34,8 @@ const eqArrays = function(list1, list2) {
   return true;
 };
 
+module.exports = map;
+
 // Test Conditions
 // Map the first letter of each word to a new array
 const words = ["ground", "control", "to", "major", "tom"];

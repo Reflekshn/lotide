@@ -61,3 +61,5 @@ assertArraysEqual(originalArray, modifiedArray);
 // Test the modified array against expected results
 const expectedArray = [1, 5, 6];
 assertArraysEqual(modifiedArray, expectedArray);
+
+module.exports = without;
