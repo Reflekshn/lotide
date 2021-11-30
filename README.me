@@ -1,0 +1,44 @@
+# Lotide
+
+A mini clone of the [Lodash](https://lodash.com) library.
+
+## Purpose
+
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
+
+This project was created and published by me as part of my learnings at Lighthouse Labs. 
+
+## Usage
+
+**Install it:**
+
+`npm install @reflekshn/lotide`
+
+**Require it:**
+
+`const _ = require('@reflekshn/lotide');`
+
+**Call it:**
+
+`const results = _.tail([1, 2, 3]) // => [2, 3]`
+
+## Documentation
+
+The following functions are currently implemented:
+
+* `assertArraysEqual(actualArray, expectedArray)`: Take in two arrays to compare and console.log an appropriate message to the console.
+* `assertEqual(actual, expected)`: Takes in two values to compare and console.log an appropriate message to the console.
+* `assertObjectsEqual(actualObject, expectedObject)`: Takes in two objects to compare and console.log an appropriate message to the console.
+* `countLetters(sentence)`: Counts letters in a string
+* `countOnly(allItems, itemsToCount)`: Reports back how many instances of each string are found in an array of strings
+* `eqArrays(list1, list2)`: Compares two arrays, returns true if identical, otherwise false
+* `eqObjects(object1, object2)`: Compares two objects, returns true if identical, otherwise false
+* `findKey(object, called)`: Takes in an objecgt and a callback and returns the first key for which the callback returns a truthy value, otherwise returns undefined.
+* `findKeyByValue(objectToSearch, valueToSearch)`: Searches for a key on an object where its value matches a given value.
+* `head(array)`: Takes an array and returns the first element.
+* `letterPositions(sentence)`: Takes in a string and returns all the indices where each character is found.
+* `map(array, callback)`: My own version of the Array.prototype.map() function.
+* `middle(array)`: Takes in an array and returns an array with only the middle element(s)
+* `tail(array)`: Takes an array and returns every element except the head.
+* `takeUntil(array, callback)`: Takes an array and returns a slice from the beginning until the callback function returns a truthy value.
+* `without(sourceArray, itemsToRemove)`: Returns a subset of a given array, removing unwanted elements.
